@@ -1,0 +1,6 @@
+--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"
+-I"D:\Study program\Keil_v5\ARM\RV31\INC"
+-I"D:\Study program\Keil_v5\ARM\CMSIS\Include"
+-I"D:\Study program\Keil_v5\ARM\Inc\ST\STM32F10x"
+--pd "__UVISION_VERSION SETA 521"
+--list .\listings\startup_stm32f10x_hd.lst --xref -o .\output\startup_stm32f10x_hd.o --depend .\output\startup_stm32f10x_hd.d "CMSIS\startup\arm\startup_stm32f10x_hd.s"

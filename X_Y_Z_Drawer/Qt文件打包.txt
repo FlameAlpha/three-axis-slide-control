@@ -1,0 +1,1 @@
+windeployqt X_Y_Z_Drawer.exe
